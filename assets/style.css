@@ -33,6 +33,7 @@ padding-top: 10px;
     background-image: url(../assets/images/national-cancer-institute-unsplash.jpg);
     background-color: #37b3cf;
     background-size: cover;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,3 +53,19 @@ padding-top: 10px;
     justify-content: center;
     align-items: center;
     }
+
+
+
+    @media only screen and (max-width:600px){
+
+        .body-section{
+            background-position: center;
+        }
+
+        .header-title{
+          font-size: 20px;
+          
+        }
+      }
+    
+    
