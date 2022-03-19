@@ -1,0 +1,9 @@
+body{
+    background-color: white;
+}
+
+.page-header{
+    background-color:black; 
+    height: 10vh;
+    width: 100vw;
+}
