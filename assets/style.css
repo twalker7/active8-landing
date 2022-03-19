@@ -3,7 +3,7 @@ body{
 }
 
 .page-header{
-    background-color:black; 
+    background-color:#37b3cf; 
     height: 10vh;
     width: 100vw;
     color: white;
@@ -11,7 +11,7 @@ body{
 
 .page-footer{
     top: 400px;
-    background-color: black;
+    background-color: #37b3cf;
     height: 10vh;
     width: 100vw;
 
@@ -20,5 +20,7 @@ body{
 .body-section{
     height: 80vh;
     width: 100vw; 
-    background-image: url(assets/images/national-cancer-institute-unsplash.jpg);
+    background-image: url(../assets/images/national-cancer-institute-unsplash.jpg);
+    background-color: #37b3cf;
+    background-size: cover;
 }
