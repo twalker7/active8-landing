@@ -6,4 +6,17 @@ body{
     background-color:black; 
     height: 10vh;
     width: 100vw;
+    color: white;
+}
+
+.page-footer{
+    top: 400px;
+    background-color: black;
+    height: 10vh;
+
+}
+
+.jumbotron{
+    height: 80vh;
+    width: 100vw; 
 }
