@@ -13,10 +13,12 @@ body{
     top: 400px;
     background-color: black;
     height: 10vh;
+    width: 100vw;
 
 }
 
-.jumbotron{
+.body-section{
     height: 80vh;
     width: 100vw; 
+    background-image: url(assets/images/national-cancer-institute-unsplash.jpg);
 }
