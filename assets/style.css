@@ -43,14 +43,7 @@ nav a:hover {
   }
 
 
-.page-footer{
-    top: 400px;
-    background-color: #37b3cf;
-    opacity:  .9;
-    height: 10vh;
-    width: 100vw;
 
-}
 
 .body-section{
     height: 75vh;
@@ -77,6 +70,25 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    }
+
+    .page-footer{
+        top: 400px;
+        background-color: #37b3cf;
+        opacity:  .9;
+        height: 10vh;
+        width: 100vw;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .copyright-logo{
+        margin-top: 20px;
+        color: white;
+        font-size: 15px;
+
     }
 
 
