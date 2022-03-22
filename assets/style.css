@@ -4,7 +4,8 @@ body{
 
 .page-header{
     background-color:#37b3cf; 
-    height: 20vh;
+    opacity:  .9;
+    height: 15vh;
     width: 100vw;
     color: white;
     display: flex;
@@ -45,13 +46,14 @@ nav a:hover {
 .page-footer{
     top: 400px;
     background-color: #37b3cf;
+    opacity:  .9;
     height: 10vh;
     width: 100vw;
 
 }
 
 .body-section{
-    height: 80vh;
+    height: 75vh;
     width: 100vw; 
     background-image: url(../assets/images/national-cancer-institute-unsplash.jpg);
     background-color: #37b3cf;
