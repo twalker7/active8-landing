@@ -110,6 +110,9 @@ nav a:hover {
         .page-header{
             height: 10vh;
         }
+        .body-section{
+            height: 80vh;
+        }
 
         .header-title{
           font-size: 20px;
