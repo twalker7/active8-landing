@@ -103,8 +103,12 @@ nav a:hover {
 
     @media only screen and (max-width:600px){
 
+
         .body-section{
             background-position: center;
+        }
+        .page-header{
+            height: 10vh;
         }
 
         .header-title{
