@@ -73,6 +73,9 @@ nav a:hover {
     align-items: center;
     }
 
+    .container:hover{
+        opacity: .8;
+    }
     .page-footer{
         top: 400px;
         background-color: #37b3cf;
