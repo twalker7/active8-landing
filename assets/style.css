@@ -48,8 +48,8 @@ nav a:hover {
 .body-section{
     height: 75vh;
     width: 100vw; 
-    background-image: url(../assets/images/national-cancer-institute-unsplash.jpg);
-    background-color: #37b3cf;
+    background-image: url(../assets/images/nicholas-green-unsplash.jpg);
+    background-color: #37b3cf; 
     background-size: cover;
 
     display: flex;
