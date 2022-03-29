@@ -23,7 +23,7 @@ function showMembership(){
     content.innerHTML = "";
 
  
-    content.append("Membership Options Coming soon!")
+    content.append("Membership options Coming soon!")
     content.className = "contact-and-membership";
     containerEl.append(content);
 }
