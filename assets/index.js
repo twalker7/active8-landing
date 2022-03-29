@@ -14,6 +14,7 @@ function showAbout(){
     containerEl.append(content);
 }
 
+//membership and contact share a common class: contact-and-membership
 
 
 function showMembership(){
@@ -23,7 +24,7 @@ function showMembership(){
 
  
     content.append("Membership Options Coming soon!")
-    content.className = "membership";
+    content.className = "contact-and-membership";
     containerEl.append(content);
 }
 
@@ -34,6 +35,6 @@ function showContactUs(){
   
 
     content.append("Reach us on instragram!")
-    content.className = "contact";
+    content.className = "contact-and-membership";
     containerEl.append(content);
 }
