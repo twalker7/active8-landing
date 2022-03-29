@@ -59,7 +59,7 @@ nav a:hover {
 }
 
 
-.container{
+#container{
     height: 70vh; 
     width: 80vw;
     border: 3px rgba(240, 236, 236, 0.1) solid;
@@ -68,14 +68,48 @@ nav a:hover {
     background-color:rgba(255, 255, 255, .3);
     box-shadow: 0px -15px 10px rgba(255,255,255, .1);
     display:flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction:column;
+    justify-content:space-around;
     align-items: center;
     }
 
-    .container:hover{
+    #container:hover{
         opacity: .8;
     }
+
+
+    .container-title{
+       margin-bottom: 100px;
+       color: rgba(255, 255, 255, .8);
+       font-size: 40px;
+    }
+
+    
+
+    .about{
+        text-align: center;
+        font-size:30px;
+        opacity: 1;
+        color: black; 
+       
+       
+    }
+
+    .membership{
+        text-align: center;
+        font-size:30px;
+        opacity: 1;
+        color: black; 
+       
+    }
+    
+    .contact{
+        text-align: center;
+        font-size:30px;
+        opacity: 1;
+        color: black; 
+    }
+
     .page-footer{
         top: 400px;
         background-color: #37b3cf;
@@ -94,8 +128,7 @@ nav a:hover {
         font-size: 15px;
 
     }
-
-
+    
     @media only screen and (max-width:920px){
         .header-title{
             font-size: 30px;
@@ -127,7 +160,7 @@ nav a:hover {
             font-size: 15px;
         }
 
-        .container{
+        #container{
             height: 70vh; 
             width: 90vw;
             border: 3px rgba(240, 236, 236, 0.1) solid;
