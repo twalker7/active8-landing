@@ -4,6 +4,8 @@ body{
 
 .page-header{
     background-color:#37b3cf; 
+    background-image: url(../assets/images/nicholas-green-unsplash.jpg);
+    background-position: center;
     opacity:  .9;
     height: 15vh;
     width: 100vw;
@@ -49,7 +51,6 @@ nav a:hover {
 .body-section{
     height: 75vh;
     width: 100vw; 
-    background-image: url(../assets/images/nicholas-green-unsplash.jpg);
     background-color: #37b3cf; 
     background-size: cover;
 
