@@ -3,9 +3,9 @@ body{
 }
 
 .page-header{
-    background-color:hsla(53, 70%, 39%, 0.488); 
+    background-color:#000000;
     background-image: url(../assets/gradient.jpg);
-    background-position:bottom;
+    background-position:center;
     opacity:  1;
     height: 15vh;
     width: 100vw;
@@ -52,6 +52,8 @@ nav a:hover {
     height: 75vh;
     width: 100vw; 
     background-color: #000000; 
+    background-image: url(../assets/gradient.jpg);
+
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -92,7 +94,7 @@ nav a:hover {
         font-size:30px;
         opacity: .9;
         color: white; 
-        background-color:rgba(0, 0, 0, 0.5);
+        
         border-radius: 20px;
 
 
@@ -105,7 +107,7 @@ nav a:hover {
         font-size:30px;
         opacity: 1;
         color: white; 
-        background-color:rgba(0, 0, 0, 0.5);
+      
         border-radius: 20px;
         padding: 5px;
 
